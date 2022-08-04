@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: node-docker
-        image: ghcr://baabel/node-docker:latest
+        image: ghcr.io/baabel/node-docker:latest
         ports:
         - containerPort: 8080
