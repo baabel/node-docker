@@ -8,11 +8,11 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: node-docker
+      app.kubernetes.io/name: node-docker
   template:
     metadata:
       labels:
-        app: node-docker
+        app.kubernetes.io/name: node-docker
     spec:
       containers:
       - name: node-docker
